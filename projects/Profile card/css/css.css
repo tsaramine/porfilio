@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(255, 0, 0, 0.377);
+}
+.all{
+    background:linear-gradient(rgb(0, 0, 0) , rgb(255, 0, 0));
+    height: 600px;
+    width: 400px;
+    border-radius:30px ;
+    border: solid 2px rgb(0, 0, 0);
+    box-shadow:0px 0px 60px red;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-transform: capitalize;
+    padding-top: 10px;
+    transition: 0.4s;
+}
+.all:hover{
+    border: solid 2px rgb(255, 0, 0);
+}
+#profil{
+    border:solid 3px black ;
+    border-radius:100px ;
+    width: 40%;
+    
+}
+#profil:hover{
+    border:solid 3px rgb(255, 0, 0) ;
+}
+h2{
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.icons{
+    width: 100%;
+    display:flex;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+#icons{
+    border:solid 3px black ;
+    border-radius:100px ;
+    width:80%;
+    transition: 0.4s;
+}
+#icons:hover{
+    border:solid 3px rgb(255, 0, 0) ;
+    transform: scale(1.1);
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    justify-content: space-between;
+    padding-left:5%;
+    padding-right:5%;
+    height: 150px;
+}
+button{
+    background-color:rgb(62, 198, 240);
+    width:45%;
+    height:60px;
+    border: solid 3px rgb(0, 0, 0) ;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: x-large;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: rgb(62, 198, 240);
+    border: solid 3px rgb(255, 0, 0);
+    transform: scale(1.1);
+    color:red;
+}
+.reaction{
+    display: flex;
+    align-items: center;
+}
+.gg{
+   border: solid black 2px;
+   border-radius: 10px;
+   width: 30%;
+   height: 30px;
+   margin-left: 10px;
+   color: black;
+}
+.gg:hover{
+    background-color: red;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>project-1</title>
+<style>
+  .rr{
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+        li{
+            display: inline;
+            margin-left: 30px;
+        }
+        ul{
+            margin-left: 600px;
+        }
+</style>
+</head>
+<body style="background-color: rgb(231, 231, 231);">
+<div class="rr">
+  <fieldset style="border-radius: 0.3cm;background-color:rgb(236,223,204)">
+    <legend><b>Vos coordonnées</b></legend>
+    <header>
+      <form method="post">  
+       <label for="11">Nom:</label>
+        <input id="11" type="text" placeholder="votre nom"><br>
+        <label for="22">Prénom:</label>
+        <input id="22" type="text" placeholder="votre prénom"><br>
+        <label for="33">Date de naissance:</label>
+        <input id="33" type="date"><br>
+        <label for="44">Mail:</label>
+        <input id="44" type="text" placeholder="votre mail"><br>
+        <label for="55">Votre site:</label>
+        <input id="55" type="text"><br>
+        <label for="66">Code:</label>
+        <input id="66" type="text"><br>  
+        Genre:
+        <input id="77" type="radio" name="mohamed">
+        <label for="77">Homme</label>
+        <input id="88" type="radio" name="mohamed">
+        <label for="88">Femme</label><br>
+        <label for="99">Pay:</label>
+        <select id="99">
+          <option value="Morocco">Morocco</option>
+          <option value="france">france</option>
+          <option value="egypt">egypt</option>
+        </select>
+      </form>
+    </header>
+  </fieldset> 
+  <fieldset style="border-radius: 0.3cm;background-color:rgb(236,223,204)">
+    <legend><b>Vos goûts</b></legend>
+    <div>
+      <form method="post">
+        <input type="checkbox" id="aaaa" name="el hadani">
+        <label for="aaaa"></label>Tarte aux fraises à la crème d'amandes <br>
+        <input type="checkbox" id="rrrr" name="el hadani">
+        <label for="rrrr"></label>Tarte aux prunes <br>
+        <input type="checkbox" id="444" name="el hadani">
+        <label for="444">Tarte rustique aux mirabelles de Lorraine, noisettes et miel</label><br>
+        <textarea placeholder="Décrivez vos goûts en détail" cols="70" rows="8"></textarea>
+      </form>
+    </div>
+  </fieldset>
+  <fieldset style="border-radius: 0.3cm;background-color:rgb(236,223,204)">
+    <legend><strong>Envoyez nous votre photo</strong></legend>
+    <footer>
+      <form method="post">
+        <input id="0000" type="file"><br><br>
+        <input type="reset" value="Effacer">
+        <input type="submit" >
+      </form>
+    </footer>
+  </fieldset>
+</div>
+</body>
+</html>

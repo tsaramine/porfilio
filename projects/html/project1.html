@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+body{
+ background-color:rgb(206, 179, 255);
+  display:flex; 
+  align-items: center;
+ justify-content: center;
+ text-transform: capitalize;
+ padding-top: 50px;
+}
+.container{
+    background-color: aliceblue;
+    height:500px ;
+    width:350px;
+    border: solid rgb(146, 91, 249);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.container:hover{
+    box-shadow: 0px 0px 20px rgb(146, 91, 249);
+}
+#submit{
+    margin-top: 30px;
+    margin-left: 15%;
+    background-color: rgb(146, 91, 249);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 210px;
+    height: 50px;
+    border: rgb(146, 91, 249) ;
+    transition: 0.4s;
+}
+#submit:hover{
+    background-color: rgb(91, 236, 249);
+}
+
+h1{
+    font-size: 27px;
+    text-shadow: 0px 0px 30px rgb(146, 91, 249);
+}
+.info input{
+    margin-bottom: 20px;
+    width: 95%;
+    height: 40px;
+    border: rgb(146, 91, 249) solid;
+   border-radius: 5px;
+   outline: none;
+   cursor: pointer;
+}
+.info input:focus{
+    border: solid 2px rgb(91, 236, 249);
+    box-shadow: 0px 0px 10px rgb(91, 236, 249);
+}
+.info textarea:focus{
+    border: solid 2px rgb(91, 236, 249);
+    box-shadow: 0px 0px 10px rgb(91, 236, 249);
+}
+label{
+    color: rgb(146, 91, 249);
+    font-size: 20px;
+    cursor: pointer;
+}
+textarea{
+    width: 300px;
+    height: 90px;
+    border: solid rgb(146, 91, 249);
+    outline: none;
+    resize: none;
+    cursor: pointer;
+}
+@media (max-width:900px) and (min-width:100px) {
+
+}
+</style>
+<body>
+    <div class="container">
+        <h1>information</h1>
+<form  method="post" action="" target="_blank">
+   <div class="info">
+        <label for="email">email:</label><br>
+        <input id="email" type="text" required>
+    </div>
+   <div class="info">
+        <label for="password">password:</label><br>
+        <input id="password" type="password" required >
+    </div>
+   <div class="info">
+        <label for="text">message:</label><br>
+        <textarea name="" id="text"></textarea  > 
+    </div>
+    <input id="submit" type="submit">
+</form>
+    </div>
+</body>
+</html>

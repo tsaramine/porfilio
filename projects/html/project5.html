@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>project-2</title>
+    <style>
+        body{
+            background: linear-gradient(to right, rgb(0, 0, 0),rgb(255, 0, 0),rgb(0, 0, 0));
+            background-repeat: no-repeat ;
+            background-attachment: fixed;
+        }
+        .kk{
+            margin: 100px 35%;
+            font-size: 20px;
+        }
+        .mm{
+            margin:0px 190px;
+
+        }
+        .mm fieldset{
+            background:linear-gradient(to right, rgb(255, 2, 2),rgb(0, 0, 0),red);
+            border-radius: 1cm;
+            width: 900px;
+            border: rgb(255, 0, 0) solid 2px;
+            box-shadow: 1px 1px 30px red;
+            color: rgb(240, 127, 127);
+        }
+        #jj{
+            background-color: yellow;
+            text-align: center;
+            width: 50px;
+            padding:0 50px;
+        }
+        .dd{
+            width: 200px;
+            height: 30px;
+            background-color: rgb(0, 255, 128);
+        }
+    </style>
+</head>
+<body>
+    <div class="kk">
+<form action="">
+    <table border="1">
+        <caption style="background-color: rgb(120, 235, 204);">information</caption>
+<tr>
+    <td id="jj"><label for="111"><b>Nom</b></label></td>
+    <td><input class="dd" id="111" type="text" required></td>
+</tr>
+<tr>
+    <td id="jj"><label for="222"><b>Prénom</b></label></td>
+    <td><input class="dd" id="222" type="text" required></td>
+</tr>
+<tr>
+    <td id="jj"><label for="333"><b>Sexe</b></label></td>
+    <td><input class="dd" id="333" type="text" required></td>
+</tr>
+<tr>
+    <td id="jj"><label for="444"><b>Date de naissance</b></label></td>
+    <td><input class="dd" id="444" type="text" required></td>
+</tr>
+<tr>
+    <td id="jj"><label for="555"><b>Niveaud'étude</b></label></td>
+    <td><input class="dd" id="555" type="text" required></td>
+</tr>
+<tr>
+    <td id="jj"><label for="666"><b>Spécialité</b></label></td>
+    <td><input class="dd" id="666" type="text" required></td>
+</tr>
+<tr>
+    <td id="jj"><label for="777"><b>Téléphone</b></label></td>
+    <td><input class="dd" id="777" type="tel" required></td>
+</tr>
+<tr>
+    <td id="jj"><label for="888"><b>Email</b></label></td>
+    <td><input class="dd" id="888" type="email" required></td>
+</tr>
+<tr>
+    <td id="jj"><label for="999"><b>Site web personnel</b></label></td>
+    <td><input class="dd" id="999" type="url" required></td>
+</tr>
+<tr>
+    <td id="jj"><label for="10"><b>Adresse</b></label></td>
+    <td><input class="dd" id="10" type="text" required></td>
+</tr>
+    </table>
+</form>
+</div>
+<div class="mm">
+<form >
+    <fieldset>
+        <legend><b>Formulaire d'inscription</b></legend>
+        <div>
+            <label for=""><b>Nom</b></label>
+            <input id="" type="text" ><br>
+            <label for=""><b>Prenom</b></label>
+            <input id="" type="text"><br>
+            <label for=""><b>Email</b></label>
+            <input id="" type="email"> <br>
+            <b>Sexe</b>
+                <label for=""><b>Masculin</b></label> 
+                <input type="radio" name="sexe">
+                <label for=""><b>Féminin</b></label>
+                <input type="radio" name="sexe"><br>
+            <label for=""><b>Photo</b></label>
+            <input type="file" accept="image/*" autofocus><br>
+            <label for="aaa"><b>Pays</b></label>
+            <select name="mohamed" id="aaa">
+                <optgroup label="pays">
+                <option value="France">France</option>
+                <option value="Moroco">Moroco</option>
+                <option value="Canada">Canada</option>
+                </optgroup>
+            </select><br>
+            <label for="pp"><b>Les langages préferés</b></label>
+            <select name="mohamed" id="pp" multiple>
+              <option value="C">C</option>
+              <option value="PHP">PHP</option> 
+              <option value="JAVA">JAVA</option>
+              <option value="C++">C++</option>
+            </select>
+            <label for="pp">(Pour faire plusieurs choix maintenir la touche CTRL enfoncée)</label>
+            <label ><b>Domaines d'actvités</b></label>
+            <input id="jj" type="checkbox">
+            <label for="jj"><b>Informatique</b></label>
+            <input id="hh" type="checkbox">
+            <label for="hh"><b>Gestion</b></label>
+            <input id="bb" type="checkbox">
+            <label for="bb"><b>Pédagogie</b></label><br><br>
+            <input type="submit"><input type="reset" value="Annuler">
+        </div>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>
